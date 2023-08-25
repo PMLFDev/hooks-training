@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { MultipleCustomHooks } from './Examples/MultipleCustomHooks'
+//import { FocusScreen } from './useRef/FocusScreen'
+import { Padre } from './07-tarea-memo/Padre'
+//import { MultipleCustomHooks } from './Examples/MultipleCustomHooks'
 //import { FormWithCustomHooks } from './useEffect/FormWithCustomHooks'
 //import { SimpleForm } from './useEffect/SimpleForm'
 //import { HookaApp } from './HookaApp'
@@ -10,6 +12,6 @@ import { MultipleCustomHooks } from './Examples/MultipleCustomHooks'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MultipleCustomHooks />
+    <Padre />
   </React.StrictMode>,
 )
